@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/herta_kuru_kuru_figure"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"/>
+    
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tvProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Herta Kuru Kuru"
+        android:textColor="#535353"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/gambar1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$42.88"
+        android:textColor="#9768F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tvProduk"
+        android:layout_marginStart="20dp"/>
+
+    <ImageButton
+        android:id="@+id/ibFavorite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/favorite"
+        android:backgroundTint="#9768F4"
+        android:layout_below="@id/tvProduk"
+        android:layout_marginEnd="20dp"/>
+
+    <ImageButton
+        android:id="@+id/ibStar1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/star"
+        android:backgroundTint="#FBC02D"
+        android:layout_below="@id/tvPrice"
+        android:layout_marginStart="20dp"/>
+    <ImageButton
+        android:id="@+id/ibStar2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/star"
+        android:backgroundTint="#FBC02D"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar1"/>
+    <ImageButton
+        android:id="@+id/ibStar3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/star"
+        android:backgroundTint="#FBC02D"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar2"/>
+    <ImageButton
+        android:id="@+id/ibStar4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/star"
+        android:backgroundTint="#FBC02D"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar3"/>
+    <ImageButton
+        android:id="@+id/ibStar5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/star"
+        android:backgroundTint="#FBC02D"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar4"/>
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#8C8A8A"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/ibStar1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/garis">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:id="@+id/tipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipe"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:id="@+id/dimension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dimensional"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/brandNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Honkai Star Rail"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"/>
+            <TextView
+                android:id="@+id/tipeNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mini Figure"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"/>
+            <TextView
+                android:id="@+id/dimenNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.5 x 8.5"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#9768F4"
+        android:text="Purchase"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
