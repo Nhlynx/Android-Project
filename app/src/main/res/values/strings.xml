@@ -4,6 +4,8 @@
 An alien scarab chooses Jaime Reyes to be its symbiotic host, bestowing the recent college graduate with a suit of armor that\'s capable of extraordinary powers, forever changing his destiny as he becomes the superhero known as Blue Beetle.
 An alien scarab chooses Jaime Reyes to be its symbiotic host, bestowing the recent college graduate with a suit of armor that\'s capable of extraordinary powers, forever changing his destiny as he becomes the superhero known as Blue Beetle.</string>
     <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+
     <string name="doa_harian"><![CDATA[Doa & Dzikir Harian]]></string>
     <string name="doa_latin">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuruُ</string>
+    <string name="title_app">Doa <font color="#FFAA00">App</font></string>
 </resources>
